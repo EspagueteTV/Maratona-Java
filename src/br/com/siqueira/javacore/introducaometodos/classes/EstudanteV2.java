@@ -4,6 +4,7 @@ public class EstudanteV2 {
     private String nome;
     private int idade;
     private double[] notas;
+    private boolean aprovado;
 
     public void print() {
         System.out.println("Nome: " + this.nome);
@@ -30,8 +31,10 @@ public class EstudanteV2 {
 
             System.out.printf("\n A média do aluno foi %.2f e ele está ", media);
             if (media < 7) {
+                this.aprovado = false;
                 System.out.println("Reprovado");
             } else {
+                this.aprovado = true;
                 System.out.println("Aprovado");
             }
         } else {
