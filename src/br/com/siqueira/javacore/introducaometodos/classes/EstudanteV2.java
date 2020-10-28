@@ -58,6 +58,14 @@ public class EstudanteV2 {
         this.notas = notas;
     }
 
+    public void setAprovado(boolean aprovado){
+        this.aprovado = aprovado;
+    }
+
+    public boolean isAprovado(){
+        return this.aprovado;
+    }
+
     public String getNome() {
         return this.nome;
     }
