@@ -14,6 +14,11 @@ public class Endereco {
         setBairro(bairro);
     }
 
+    public void imprime(){
+        System.out.println("Rua: " + getRua());
+        System.out.println("Bairro: " + getBairro());
+    }
+
     public void setRua(String rua){
         this.rua = rua;
     }

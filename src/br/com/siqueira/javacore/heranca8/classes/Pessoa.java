@@ -1,10 +1,9 @@
 package br.com.siqueira.javacore.heranca8.classes;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
-
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
 
     public Pessoa() {
@@ -13,16 +12,17 @@ public class Pessoa {
     }
 
     public Pessoa(String nome, String cpf) {
+        System.out.println();
         setNome(nome);
         setCpf(cpf);
     }
 
-    public void imprimi(){
+    public void imprimi() {
         System.out.println("Nome: " + getNome());
         System.out.println("Cpf: " + getCpf());
-        if(this.endereco != null){
+        if (this.endereco != null) {
             System.out.println("Endereco: " + this.endereco.getRua() + ", " + this.endereco.getBairro());
-        }else{
+        } else {
             System.out.println("Não foi cadastrado nenhum endereço");
         }
     }
