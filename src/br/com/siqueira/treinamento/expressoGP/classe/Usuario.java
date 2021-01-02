@@ -1,6 +1,5 @@
 package br.com.siqueira.treinamento.expressoGP.classe;
 
-import javafx.scene.transform.Scale;
 
 import java.util.Scanner;
 

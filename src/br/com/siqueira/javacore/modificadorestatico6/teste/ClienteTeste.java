@@ -1,5 +1,5 @@
 package br.com.siqueira.javacore.modificadorestatico6.teste;
-
+/*
 
 import br.com.siqueira.javacore.modificadorestatico6.classes.Cliente;
 
@@ -19,3 +19,4 @@ public class ClienteTeste {
         System.out.println("Tamanho " + Cliente.getParcelas().length);
     }
 }
+*/

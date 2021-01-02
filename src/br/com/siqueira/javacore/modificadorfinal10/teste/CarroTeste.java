@@ -1,5 +1,5 @@
 package br.com.siqueira.javacore.modificadorfinal10.teste;
-
+/*
 import br.com.siqueira.javacore.modificadorfinal10.classe.Carro;
 import br.com.siqueira.javacore.modificadorfinal10.classe.Comprador;
 
@@ -11,3 +11,4 @@ public class CarroTeste {
         System.out.println(c.getComprador());
     }
 }
+*/
